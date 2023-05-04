@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="6_7">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="8_9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -45,20 +45,36 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Documents\GitHub\AQAHomeWork\src\main\java\AQA\Task9" />
       <recent name="C:\Users\Олег\Documents\GitHub\AQAHomeWork\src\main\resources" />
       <recent name="C:\Users\Олег\IdeaProjects\AQAHomeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ParametersFromTestNg">
-    <configuration name="Operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQA.Task2.Operations" />
+  <component name="RunManager" selected="TestNG.WebDriverTest.MyTest">
+    <configuration name="WebDriverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task10.WebDriverTest" />
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQA.Task2.*" />
+          <option name="PATTERN" value="Task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GettingStarted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQAHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task10.WebDriver" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task10" />
+      <option name="MAIN_CLASS_NAME" value="Task10.GettingStarted" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,34 +96,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Provider.IsDigitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task8.*" />
+          <option name="PATTERN" value="Task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task8" />
-      <option name="MAIN_CLASS_NAME" value="Task8.Provider" />
-      <option name="METHOD_NAME" value="IsDigitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTestTask2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQAHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task8" />
-      <option name="MAIN_CLASS_NAME" value="Task8.UnitTestTask2" />
+      <option name="PACKAGE_NAME" value="Task10" />
+      <option name="MAIN_CLASS_NAME" value="Task10.WebDriverTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -115,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestTask2.IsLetterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverTest.MyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task8.*" />
+          <option name="PATTERN" value="Task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task8" />
-      <option name="MAIN_CLASS_NAME" value="Task8.UnitTestTask2" />
-      <option name="METHOD_NAME" value="IsLetterTest" />
+      <option name="PACKAGE_NAME" value="Task10" />
+      <option name="MAIN_CLASS_NAME" value="Task10.WebDriverTest" />
+      <option name="METHOD_NAME" value="MyTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebDriverTest.MyTest" />
+        <item itemvalue="TestNG.WebDriverTest" />
+        <item itemvalue="Application.WebDriverTest" />
+        <item itemvalue="JUnit.GettingStarted" />
         <item itemvalue="TestNG.ParametersFromTestNg" />
-        <item itemvalue="TestNG.Provider.IsDigitTest" />
-        <item itemvalue="TestNG.UnitTestTask2.IsLetterTest" />
-        <item itemvalue="TestNG.UnitTestTask2" />
-        <item itemvalue="Application.Operations" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683203013831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="8_9">
+      <created>1683208564858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683208564859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ggd" />
     <MESSAGE value="6_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="6_7" />
+    <MESSAGE value="8_9" />
+    <option name="LAST_COMMIT_MESSAGE" value="8_9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +232,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/AQA/Task2/Operations.java</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Task10/WebDriverTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
