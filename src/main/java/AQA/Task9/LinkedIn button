@@ -1,0 +1,16 @@
+
+// Button
+#sign-in-form__footer > button
+//*[@id="main-content"]/section[1]/div/div/form[1]/div[2]
+/html/body/main/section[1]/div/div/form[1]/div[2]/button
+
+
+// Input
+#session_key
+/html/body/main/section[1]/div/div/form[1]/div[1]/div[1]/div/div/input
+//*[@id="session_key"]
+
+
+// a
+body > nav > ul > li:nth-child(1) > a
+/html/body/nav/ul/li[1]/a

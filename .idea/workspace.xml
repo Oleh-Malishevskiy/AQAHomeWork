@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="ggd">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="6_7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6/ColorPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6/ColorPalette.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,13 @@
       <recent name="C:\Users\Олег\IdeaProjects\AQAHomeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQA.Task5.Json" />
+  <component name="RunManager" selected="TestNG.ParametersFromTestNg">
+    <configuration name="Operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AQA.Task2.Operations" />
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQA.Task5.*" />
+          <option name="PATTERN" value="AQA.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,51 +63,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQA.Task6_7.Main" />
+    <configuration name="ParametersFromTestNg" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQA.Task6_7.Student" />
+          <option name="PATTERN" value="Task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Task8" />
+      <option name="MAIN_CLASS_NAME" value="Task8.ParametersFromTestNg" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQA.Task5.Stream" />
+    <configuration name="Provider.IsDigitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQA.Task5.*" />
+          <option name="PATTERN" value="Task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Task8" />
+      <option name="MAIN_CLASS_NAME" value="Task8.Provider" />
+      <option name="METHOD_NAME" value="IsDigitTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQA.Task5.XML" />
+    <configuration name="UnitTestTask2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQA.Task5.*" />
+          <option name="PATTERN" value="Task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Task8" />
+      <option name="MAIN_CLASS_NAME" value="Task8.UnitTestTask2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestTask2.IsLetterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task8" />
+      <option name="MAIN_CLASS_NAME" value="Task8.UnitTestTask2" />
+      <option name="METHOD_NAME" value="IsLetterTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Json" />
-        <item itemvalue="Application.Stream" />
-        <item itemvalue="Application.XML" />
+        <item itemvalue="TestNG.ParametersFromTestNg" />
+        <item itemvalue="TestNG.Provider.IsDigitTest" />
+        <item itemvalue="TestNG.UnitTestTask2.IsLetterTest" />
+        <item itemvalue="TestNG.UnitTestTask2" />
+        <item itemvalue="Application.Operations" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682613377484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6_7">
+      <created>1683203013830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683203013831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ggd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ggd" />
+    <MESSAGE value="6_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="6_7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,6 +221,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/AQA/Task6/Main.java</url>
           <line>1</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AQA/Task2/Operations.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

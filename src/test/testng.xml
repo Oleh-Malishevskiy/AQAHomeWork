@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="all test SUITE">
+
+    <parameter name="a" value="A" />
+    <parameter name="expected" value="true" />
+
+    <test name="Operation test">
+        <packages>
+            <package name="AQA_test"/>
+        </packages>
+    </test>
+
+    <test name="Find IsDigit">
+        <classes>
+            <class name="Task8.ParametersFromTestNg">
+                <methods>
+                    <include name="IsDigitTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
