@@ -1,0 +1,25 @@
+package AQA.Task6_7;
+
+
+import java.sql.SQLException;
+
+public class Main {
+    public static void main(String[] args) throws SQLException {
+
+        UserService userService = new UserService();
+        User user = new User("Masha",26);
+        userService.saveUser(user);
+        Auto ferrari = new Auto("Ferrari");
+        ColorPalette studentGfgDetail
+                = new ColorPalette();
+         studentGfgDetail.ColorPalette("White",true,23);
+         ferrari.setColorPalette(studentGfgDetail);
+        ferrari.setUser(user);
+        user.addAuto(ferrari);
+        Auto ford = new Auto("Ford");
+        ford.setUser(user);
+        user.addAuto(ford);
+        userService.updateUser(user);
+        System.exit(0);
+    }
+}
