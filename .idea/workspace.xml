@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="8_9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +48,11 @@
       <recent name="C:\Users\Олег\Documents\GitHub\AQAHomeWork\src\main\resources" />
       <recent name="C:\Users\Олег\IdeaProjects\AQAHomeWork" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Task11" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebDriverTest.MyTest">
+  <component name="RunManager" selected="TestNG.EndToEnd.EndToEnd">
     <configuration name="WebDriverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task10.WebDriverTest" />
       <module name="AQAHomeWork" />
@@ -64,32 +66,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingStarted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task10.WebDriver" />
+          <option name="PATTERN" value="Task11.Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task10" />
-      <option name="MAIN_CLASS_NAME" value="Task10.GettingStarted" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Task11" />
+      <option name="MAIN_CLASS_NAME" value="Task11.EndToEnd" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametersFromTestNg" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EndToEnd.EndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task8.*" />
+          <option name="PATTERN" value="Task11.Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task8" />
-      <option name="MAIN_CLASS_NAME" value="Task8.ParametersFromTestNg" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="Task11" />
+      <option name="MAIN_CLASS_NAME" value="Task11.EndToEnd" />
+      <option name="METHOD_NAME" value="EndToEnd" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EndToEnd.EndToEnd" />
+        <item itemvalue="TestNG.EndToEnd" />
         <item itemvalue="TestNG.WebDriverTest.MyTest" />
         <item itemvalue="TestNG.WebDriverTest" />
         <item itemvalue="Application.WebDriverTest" />
-        <item itemvalue="JUnit.GettingStarted" />
-        <item itemvalue="TestNG.ParametersFromTestNg" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683208564859</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="8_9">
+      <created>1683215170491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683215170492</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
