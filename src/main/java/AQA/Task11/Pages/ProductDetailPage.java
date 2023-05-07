@@ -12,6 +12,8 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
+import static AQA.Task12.WebDriverHelper.driver;
+
 public class ProductDetailPage {
     private WebDriver driver;
     public ProductDetailPage(WebDriver driver) {
@@ -38,12 +40,13 @@ public class ProductDetailPage {
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"tbodyid\"]/div[2]/div/a")));
         ToCart.click();
         try {
+            Thread.sleep(1000);
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.alertIsPresent());
             Alert alert = driver.switchTo().alert();
             System.out.println(alert.getText());
-            alert.accept();
             Assert.assertTrue(alert.getText().contains("Product added"));
+            alert.accept();
         } catch (Exception e) {
             System.out.println("error: " + e);
         }

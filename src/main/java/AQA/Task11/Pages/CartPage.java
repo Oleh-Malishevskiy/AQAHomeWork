@@ -38,7 +38,7 @@ public class CartPage {
                 .until(driver -> driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[1]/td[2]")));
         WebElement ProductPriceInCart = new WebDriverWait(driver, Duration.ofSeconds(3))
                 .until(driver -> driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[1]/td[3]")));
-        setName(String.valueOf(ProductNameInCart));
-        setPrice(String.valueOf(ProductPriceInCart));
+        setName(String.valueOf(ProductNameInCart.getText()));
+        setPrice(String.valueOf(ProductPriceInCart.getText()));
     }
 }

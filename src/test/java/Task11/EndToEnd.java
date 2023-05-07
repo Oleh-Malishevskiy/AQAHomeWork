@@ -54,7 +54,7 @@ public class EndToEnd {
         cartPage.ProductNameAndPrice();
         String ProductNameInCart = cartPage.getInCartName();
         String ProductPriceInCart = cartPage.getInCartPrice();
-        System.out.println("in cart name and price " + ProductNameInCart + " " + ProductPriceInCart  + "-- selected from store " + A.get(0));
+        System.out.println("in cart name and price " + ProductNameInCart + " $" + ProductPriceInCart  + "-- selected from store " + A.get(0));
 
     }
     @AfterTest
