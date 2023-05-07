@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="fix 11">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task11/Pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task11/Pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task11/Pages/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task11/Pages/ProductDetailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Task11/EndToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task11/EndToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/ColorPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/AQAHomeWork/src/main/java/AQA/Task12",
-    "onboarding.tips.debug.path": "C:/Users/Олег/IdeaProjects/AQAHomeWork/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Олег/Documents/GitHub/AQAHomeWork/src/main/java/AQA/Task12&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Олег/IdeaProjects/AQAHomeWork/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Task11" />
@@ -59,6 +67,7 @@
       <recent name="C:\Users\Олег\IdeaProjects\AQAHomeWork" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="AQA.Task13" />
       <recent name="Task11" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -68,52 +77,56 @@
       <recent name="AQA.Task12" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task12_Test.EndToEnd">
-    <configuration name="EndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Listener">
+    <configuration name="Json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AQA.Task5.Json" />
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task11.Pages.*" />
+          <option name="PATTERN" value="AQA.Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task11" />
-      <option name="MAIN_CLASS_NAME" value="Task11.EndToEnd" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndToEnd.EndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AQA.Task6_7.Main" />
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task11.Pages.*" />
+          <option name="PATTERN" value="AQA.Task6_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task11" />
-      <option name="MAIN_CLASS_NAME" value="Task11.EndToEnd" />
-      <option name="METHOD_NAME" value="EndToEnd" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task12_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="XML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AQA.Task5.XML" />
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task12.*" />
+          <option name="PATTERN" value="AQA.Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task12" />
-      <option name="MAIN_CLASS_NAME" value="Task12.Task12_Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Listener" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task13" />
+      <option name="MAIN_CLASS_NAME" value="Task13.Listener" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -139,31 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverTest.MyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQAHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task10" />
-      <option name="MAIN_CLASS_NAME" value="Task10.WebDriverTest" />
-      <option name="METHOD_NAME" value="MyTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Listener" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.XML" />
+        <item itemvalue="Application.Json" />
         <item itemvalue="TestNG.Task12_Test.EndToEnd" />
-        <item itemvalue="TestNG.Task12_Test" />
-        <item itemvalue="TestNG.EndToEnd.EndToEnd" />
-        <item itemvalue="TestNG.EndToEnd" />
-        <item itemvalue="TestNG.WebDriverTest.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683472178714</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="12">
+      <created>1683479255899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683479255899</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +266,8 @@
     <MESSAGE value="8_9" />
     <MESSAGE value="11" />
     <MESSAGE value="fix 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 11" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

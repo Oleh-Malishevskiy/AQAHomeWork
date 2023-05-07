@@ -1,39 +1,35 @@
-package Task11;
+package Task13;
 
 import AQA.Task11.HomePage;
 import AQA.Task11.Pages.CartPage;
 import AQA.Task11.Pages.ProductDetailPage;
+import AQA.Task13.SuiteListener;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class EndToEnd {
-//    Make up one simple UI end-to-end test case for your test page from Task_10.
-//    Automate that scenario using WebDriver
-//    Create PageObject (use Busines object if need)for all pages used in scenario
-
-//    Add a product to the shopping cart Scenario:
-    //    Navigate to the product page
-    //    Click on the "Add to Cart" button
-    //    Verify that the product is added to the shopping cart
-    //    Navigate to the shopping cart page
-    //    Verify that the product is displayed in the shopping cart
-    //    Verify that the total price of the products in the shopping cart is correct
+@Listeners({SuiteListener.class})
+public class Listener {
+//    Implement custom Test and another Listeners with methods for your variant.
+//    Add logging for all overridden listener methods
+//    Add video recorder for onFail action (you can use any lib for that)
+//    V10. ITestListener method task (3, 6); ISuiteListener, IExecutionListener,IInvoke...(1, 2)
+//   3 onTestSuccess() - Logging the test result and add the test result record to table in local DB.
+//            onTestFailure() - Log the test result and take a screenshot of the failed test.
+//   6 onTestSkipped() - Logging the test result and skip reason to console.
+//
+//    1 onStart(ISuite suite) - Set up the environment for the test suite or initialise any data required for the test suite.
+//    2 onFinish(ISuite suite) - Tear down the environment or clean up any data created during the execution of the test suite. Close browser if need.
+//
 
     private WebDriver driver;
     @BeforeTest

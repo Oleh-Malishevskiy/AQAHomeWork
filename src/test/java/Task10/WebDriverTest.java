@@ -13,6 +13,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class WebDriverTest {
+//    Setup ChromeDriver using driver file and properties.
+//    Setup ChromeDriver using DriverManager.
+//    My first UI test:
+//    go to the page from your variant
+//    choose any 5 different elements;
+//    Use different WebElement methods to communicate with those elements. (one element - at least one interaction)
+//    Make a testNG test case to check visibility of your elements.
+
     private WebDriver driver;
     @BeforeTest
     void setup() {

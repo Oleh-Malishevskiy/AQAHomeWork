@@ -18,6 +18,13 @@ public class UserDao {
         tx1.commit();
         session.close();
     }
+    public void saveLog(LogTask13 logTask13) {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+        session.save(logTask13);
+        tx1.commit();
+        session.close();
+    }
 
     public void update(User user) {
         Session session = HibernateUtil.getSessionFactory().openSession();

@@ -16,7 +16,7 @@ public class UserService {
     public void saveUser(User user) {
         usersDao.save(user);
     }
-
+    public void saveLogG(LogTask13 logTask13){usersDao.saveLog(logTask13);}
     public void deleteUser(User user) {
         usersDao.delete(user);
     }
