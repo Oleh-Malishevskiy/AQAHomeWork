@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="8_9">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task11/EndToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task11/EndToEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Task11" />
+      <recent name="AQA.Task11" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Олег\Documents\GitHub\AQAHomeWork\src\main\java\AQA\Task9" />
       <recent name="C:\Users\Олег\Documents\GitHub\AQAHomeWork\src\main\resources" />
@@ -50,6 +55,9 @@
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Task11" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="AQA.Task11" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.EndToEnd.EndToEnd">
@@ -190,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683215170492</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="11">
+      <created>1683225169900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683225169900</updated>
+    </task>
+    <task id="LOCAL-00007" summary="11">
+      <created>1683225180556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683225180556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +242,8 @@
     <MESSAGE value="ggd" />
     <MESSAGE value="6_7" />
     <MESSAGE value="8_9" />
-    <option name="LAST_COMMIT_MESSAGE" value="8_9" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

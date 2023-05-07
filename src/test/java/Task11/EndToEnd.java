@@ -1,5 +1,8 @@
 package Task11;
 
+import AQA.Task11.HomePage;
+import AQA.Task11.Pages.CartPage;
+import AQA.Task11.Pages.ProductDetailPage;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -15,7 +18,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.UUID;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class EndToEnd {
 //    Add a product to the shopping cart Scenario:
@@ -38,43 +43,18 @@ public class EndToEnd {
     }
     @Test
     void EndToEnd(){
+        HomePage homePage = new HomePage(driver);
+        ProductDetailPage productDetailPage = homePage.productDetail();
+        List<String> A = new ArrayList<>();
+        A = Collections.singletonList(productDetailPage.getProductNamePrice());
+        productDetailPage.AddToCartAndIsAdded();
 
-        driver.get("https://www.demoblaze.com");
+        CartPage cartPage = productDetailPage.ToCart();
 
-        WebElement ProductButton = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"tbodyid\"]/div[1]/div/div/h4/a")));
-        ProductButton.click();
-        //*[@id="tbodyid"]/h2
-        WebElement ProductName = new WebDriverWait(driver, Duration.ofSeconds(3))
-                .until(driver -> driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/h2")));
-        WebElement ProductPrice = new WebDriverWait(driver, Duration.ofSeconds(3))
-                .until(driver -> driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/h3")));
-
-        String a = ProductName.getText();
-        String c = ProductPrice.getText();
-        System.out.println(a+"  " + c);
-        WebElement ToCart = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"tbodyid\"]/div[2]/div/a")));
-        ToCart.click();
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.alertIsPresent());
-            Alert alert = driver.switchTo().alert();
-            System.out.println(alert.getText());
-            alert.accept();
-            Assert.assertTrue(alert.getText().contains("Product added"));
-        } catch (Exception e) {
-            //exception handling
-        }
-        WebElement CartButton = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"cartur\"]")));
-        CartButton.click();
-        WebElement ProductNameInCart = new WebDriverWait(driver, Duration.ofSeconds(3))
-                .until(driver -> driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[1]/td[2]")));
-        WebElement ProductPriceInCart = new WebDriverWait(driver, Duration.ofSeconds(3))
-                .until(driver -> driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[1]/td[3]")));
-        System.out.println("in cart name " + ProductNameInCart.getText() + "-- selected from store " + a);
-        System.out.println("in cart price " + ProductPriceInCart.getText() + "-- selected from store " + c);
+        cartPage.ProductNameAndPrice();
+        String ProductNameInCart = cartPage.getInCartName();
+        String ProductPriceInCart = cartPage.getInCartPrice();
+        System.out.println("in cart name and price " + ProductNameInCart + " " + ProductPriceInCart  + "-- selected from store " + A.get(0));
 
     }
     @AfterTest
