@@ -1,7 +1,7 @@
 package AQA.Task13;
 
+
 import AQA.Task6_7.LogTask13;
-import AQA.Task6_7.User;
 import AQA.Task6_7.UserService;
 import org.testng.*;
 import org.apache.log4j.Logger;
