@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="Allure">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="Task15 postman">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,97 +68,91 @@
       <recent name="AQA.Task12" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AllureTest.EndToEnd">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQA.Task6_7.Main" />
+  <component name="RunManager" selected="JUnit.DeleteDueDate">
+    <configuration name="AddAndPutDueDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQA.Task6_7.*" />
+          <option name="PATTERN" value="Task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Task16" />
+      <option name="MAIN_CLASS_NAME" value="Task16.AddAndPutDueDate" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllureTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddAndPutDueDate.putRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task14.*" />
+          <option name="PATTERN" value="Task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task14" />
-      <option name="MAIN_CLASS_NAME" value="Task14.AllureTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Task16" />
+      <option name="MAIN_CLASS_NAME" value="Task16.AddAndPutDueDate" />
+      <option name="METHOD_NAME" value="putRequest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllureTest.EndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task14.*" />
+          <option name="PATTERN" value="Task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task14" />
-      <option name="MAIN_CLASS_NAME" value="Task14.AllureTest" />
-      <option name="METHOD_NAME" value="EndToEnd" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Task16" />
+      <option name="MAIN_CLASS_NAME" value="Task16.ApiTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listener" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTest.postRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task13.*" />
+          <option name="PATTERN" value="Task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task13" />
-      <option name="MAIN_CLASS_NAME" value="Task13.Listener" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Task16" />
+      <option name="MAIN_CLASS_NAME" value="Task16.ApiTest" />
+      <option name="METHOD_NAME" value="postRequest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listener.EndToEnd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteDueDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task13.*" />
+          <option name="PATTERN" value="Task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task13" />
-      <option name="MAIN_CLASS_NAME" value="Task13.Listener" />
-      <option name="METHOD_NAME" value="EndToEnd" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Task16" />
+      <option name="MAIN_CLASS_NAME" value="Task16.DeleteDueDate" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AllureTest.EndToEnd" />
-        <item itemvalue="TestNG.AllureTest" />
-        <item itemvalue="TestNG.Listener.EndToEnd" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.Listener" />
+        <item itemvalue="JUnit.DeleteDueDate" />
+        <item itemvalue="JUnit.AddAndPutDueDate" />
+        <item itemvalue="JUnit.AddAndPutDueDate.putRequest" />
+        <item itemvalue="JUnit.ApiTest" />
+        <item itemvalue="JUnit.ApiTest.postRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684062539421</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task15 postman">
+      <created>1684065737991</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684065737991</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +291,8 @@
     <MESSAGE value="12" />
     <MESSAGE value="video" />
     <MESSAGE value="Allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allure" />
+    <MESSAGE value="Task15 postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task15 postman" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
