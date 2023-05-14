@@ -1,0 +1,379 @@
+{
+    "id": "6460c761541f0f486b9fa0d9",
+    "name": "{NewBoard}",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "60e8085914735d02e141c9ea",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/7hWSEW45/newboard",
+    "shortUrl": "https://trello.com/b/7hWSEW45",
+    "prefs": {
+        "permissionLevel": "private",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "hiddenPluginBoardButtons": [],
+        "switcherViews": [
+            {
+                "viewType": "Board",
+                "enabled": true,
+                "_id": "6460c761541f0f486b9fa0da"
+            },
+            {
+                "viewType": "Table",
+                "enabled": true,
+                "_id": "6460c761541f0f486b9fa0db"
+            },
+            {
+                "viewType": "Calendar",
+                "enabled": false,
+                "_id": "6460c761541f0f486b9fa0dc"
+            },
+            {
+                "viewType": "Dashboard",
+                "enabled": false,
+                "_id": "6460c761541f0f486b9fa0dd"
+            },
+            {
+                "viewType": "Timeline",
+                "enabled": false,
+                "_id": "6460c761541f0f486b9fa0de"
+            },
+            {
+                "viewType": "Map",
+                "enabled": false,
+                "_id": "6460c761541f0f486b9fa0df"
+            }
+        ],
+        "background": "blue",
+        "backgroundColor": "#0079BF",
+        "backgroundImage": null,
+        "backgroundImageScaled": null,
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "backgroundBottomColor": "#0079BF",
+        "backgroundTopColor": "#0079BF",
+        "canBePublic": true,
+        "canBeEnterprise": true,
+        "canBeOrg": true,
+        "canBePrivate": true,
+        "canInvite": true
+    },
+    "labelNames": {
+        "green": "",
+        "yellow": "",
+        "orange": "",
+        "red": "",
+        "purple": "",
+        "blue": "",
+        "sky": "",
+        "lime": "",
+        "pink": "",
+        "black": "",
+        "green_dark": "",
+        "yellow_dark": "",
+        "orange_dark": "",
+        "red_dark": "",
+        "purple_dark": "",
+        "blue_dark": "",
+        "sky_dark": "",
+        "lime_dark": "",
+        "pink_dark": "",
+        "black_dark": "",
+        "green_light": "",
+        "yellow_light": "",
+        "orange_light": "",
+        "red_light": "",
+        "purple_light": "",
+        "blue_light": "",
+        "sky_light": "",
+        "lime_light": "",
+        "pink_light": "",
+        "black_light": ""
+    },
+    "limits": {}
+}
+
+{
+    "id": "6460c94273877a9903414962",
+    "name": "{NewList}",
+    "closed": false,
+    "idBoard": "6460c761541f0f486b9fa0d9",
+    "pos": 8192,
+    "status": null,
+    "limits": {}
+}
+
+
+Status 200 Ok;
+
+{
+    "id": "6460c96d8b75e7dbe8466805",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-05-14T11:43:41.240Z",
+    "desc": "CARD_DESC",
+    "descData": {
+        "emoji": {}
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6460c761541f0f486b9fa0d9",
+    "idChecklists": [],
+    "idList": "6460c94273877a9903414962",
+    "idMembers": [],
+    "idMembersVoted": [],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [],
+    "idLabels": [],
+    "manualCoverAttachment": false,
+    "name": "CARD_TITLE",
+    "pos": 16384,
+    "shortLink": "BYgnYxdQ",
+    "shortUrl": "https://trello.com/c/BYgnYxdQ",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/BYgnYxdQ/1-cardtitle",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null,
+    "attachments": [],
+    "stickers": [],
+    "limits": {}
+}
+
+
+
+Status 200 ok
+
+{
+    "id": "6460c96d8b75e7dbe8466805",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2017-01-26T00:00:00.000Z",
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-05-14T11:56:27.598Z",
+    "desc": "CARD_DESC",
+    "descData": {
+        "emoji": {}
+    },
+    "due": "2017-01-26T00:00:00.000Z",
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6460c761541f0f486b9fa0d9",
+    "idChecklists": [],
+    "idList": "6460c94273877a9903414962",
+    "idMembers": [],
+    "idMembersVoted": [],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [],
+    "idLabels": [],
+    "manualCoverAttachment": false,
+    "name": "CARD_TITLE",
+    "pos": 16384,
+    "shortLink": "BYgnYxdQ",
+    "shortUrl": "https://trello.com/c/BYgnYxdQ",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/BYgnYxdQ/1-cardtitle",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null
+}
+
+{
+    "id": "6460c96d8b75e7dbe8466805",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": "2023-01-26T00:00:00.000Z",
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-05-14T11:57:31.856Z",
+    "desc": "CARD_DESC",
+    "descData": {
+        "emoji": {}
+    },
+    "due": "2023-01-26T00:00:00.000Z",
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6460c761541f0f486b9fa0d9",
+    "idChecklists": [],
+    "idList": "6460c94273877a9903414962",
+    "idMembers": [],
+    "idMembersVoted": [],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [],
+    "idLabels": [],
+    "manualCoverAttachment": false,
+    "name": "CARD_TITLE",
+    "pos": 16384,
+    "shortLink": "BYgnYxdQ",
+    "shortUrl": "https://trello.com/c/BYgnYxdQ",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/BYgnYxdQ/1-cardtitle",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null
+}
+
+{
+    "id": "6460c96d8b75e7dbe8466805",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2023-05-14T12:00:36.280Z",
+    "desc": "CARD_DESC",
+    "descData": {
+        "emoji": {}
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6460c761541f0f486b9fa0d9",
+    "idChecklists": [],
+    "idList": "6460c94273877a9903414962",
+    "idMembers": [],
+    "idMembersVoted": [],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [],
+    "idLabels": [],
+    "manualCoverAttachment": false,
+    "name": "CARD_TITLE",
+    "pos": 16384,
+    "shortLink": "BYgnYxdQ",
+    "shortUrl": "https://trello.com/c/BYgnYxdQ",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/BYgnYxdQ/1-cardtitle",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null
+}

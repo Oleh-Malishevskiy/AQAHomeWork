@@ -1,0 +1,13 @@
+V10.
+Create a new card on a board. Check that the API call returns a success status code and that the card is created with the name provided in the API call.
+Add a due date to the card. Check that the API call returns a success status code and that the due date is added to the card.
+Update the due date of the card. Check that the API call returns a success status code and that the due date of the card is updated as expected.
+Delete the due date from the card. Check that the API call returns a success status code and that the due date is removed from the card.
+
+
+Api key
+1e166e6bb1ca9d215203a0d66d771f8e
+Secret
+0d8b928562d8ba1206bfb2f3d416f5529f46ee103b76ced324d95fe65ecb78a0
+Token
+ATTAa9181d91daad8f88c8d5ec34e261775611b7a7ae8f26f72bc6d49335743613d7EEC813F8

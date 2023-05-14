@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="video">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task13/SuiteListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task13/SuiteListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684059898042</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Allure">
+      <created>1684062539421</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684062539421</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +288,8 @@
     <MESSAGE value="fix 11" />
     <MESSAGE value="12" />
     <MESSAGE value="video" />
-    <option name="LAST_COMMIT_MESSAGE" value="video" />
+    <MESSAGE value="Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
