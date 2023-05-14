@@ -4,6 +4,7 @@ import AQA.Task11.HomePage;
 import AQA.Task11.Pages.CartPage;
 import AQA.Task11.Pages.ProductDetailPage;
 import AQA.Task13.SuiteListener;
+import com.automation.remarks.video.annotations.Video;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,6 +42,7 @@ public class Listener {
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
     }
+    @Video
     @Test
     void EndToEnd(){
         HomePage homePage = new HomePage(driver);

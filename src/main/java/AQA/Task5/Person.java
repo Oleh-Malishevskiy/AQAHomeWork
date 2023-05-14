@@ -3,28 +3,28 @@ package AQA.Task5;
 import java.io.Serializable;
 import java.util.List;
 
-public class ColorPalette implements Serializable,Comparable<ColorPalette> {
-    private List<String> colors;
-    private Boolean isPrimary;
+public class Person implements Serializable,Comparable<Person> {
+    private List<String> friends;
+    private Boolean isWorking;
     private List<Integer> rgb;
 
-    public ColorPalette() {
+    public Person() {
     }
 
     public List<String> getColors() {
-        return colors;
+        return friends;
     }
 
     public void setColors(List<String> colors) {
-        this.colors = colors;
+        this.friends = colors;
     }
 
     public Boolean getPrimary() {
-        return isPrimary;
+        return isWorking;
     }
 
     public void setPrimary(Boolean primary) {
-        isPrimary = primary;
+        isWorking = primary;
     }
 
     public List<Integer> getRgb() {
@@ -38,8 +38,8 @@ public class ColorPalette implements Serializable,Comparable<ColorPalette> {
     @Override
     public String toString() {
         return "ColorPalette{" +
-                "colors=" + colors +
-                ", isPrimary=" + isPrimary +
+                "friends=" + friends +
+                ", isWorking=" + isWorking +
                 ", rgb=" + rgb +
                 '}';
     }
@@ -47,9 +47,9 @@ public class ColorPalette implements Serializable,Comparable<ColorPalette> {
 
 
     @Override
-    public int compareTo(ColorPalette o) {
-        ColorPalette o1 =(ColorPalette)this;
-        ColorPalette o2 =(ColorPalette)o;
+    public int compareTo(Person o) {
+        Person o1 =(Person)this;
+        Person o2 =(Person)o;
         return o1.getRgb().toString().compareTo(o2.getRgb().toString());
     }
 }

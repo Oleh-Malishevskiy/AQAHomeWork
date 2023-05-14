@@ -1,1 +1,1 @@
-{"colors":["red","green","blue"],"primary":true,"rgb":[255,0,0]}
+{"name":"Me","friends":["Emily","Michael","David"],"getFriends":["Emily","Michael","David"],"timesStamp":255,"working":true}
