@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="Task15 postman">
+    <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="Task16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,20 @@
       <recent name="AQA.Task12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteDueDate">
+  <component name="RunManager" selected="Application.HibernateMain">
+    <configuration name="HibernateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AQA.Task18.HibernateMain" />
+      <module name="AQAHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AQA.Task18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddAndPutDueDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
@@ -115,22 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.postRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AQAHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task16" />
-      <option name="MAIN_CLASS_NAME" value="Task16.ApiTest" />
-      <option name="METHOD_NAME" value="postRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeleteDueDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
@@ -148,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateMain" />
         <item itemvalue="JUnit.DeleteDueDate" />
         <item itemvalue="JUnit.AddAndPutDueDate" />
         <item itemvalue="JUnit.AddAndPutDueDate.putRequest" />
         <item itemvalue="JUnit.ApiTest" />
-        <item itemvalue="JUnit.ApiTest.postRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684065737991</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Task16">
+      <created>1684067712960</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684067712960</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +295,8 @@
     <MESSAGE value="video" />
     <MESSAGE value="Allure" />
     <MESSAGE value="Task15 postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task15 postman" />
+    <MESSAGE value="Task16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
