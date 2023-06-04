@@ -6,9 +6,12 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-public class AddAndPutDueDate {
-    private static String requestBody = "{\n" +
-            "  \"due\": \"2022-01-26T00:00:00.000Z\" \n}";
+
+public class CreateListApi {
+//    V9.
+
+//    Create a new list on the board. Check that the API call returns a success status code and that the list is created with the name provided in the API call.
+
 
     @BeforeAll
     public static void setup() {
@@ -16,17 +19,18 @@ public class AddAndPutDueDate {
     }
 
     @Test
-    public void putRequest() {
+    public void CreateBoardTest() {
         Response response = given()
                 .header("Content-type", "application/json")
                 .and()
-                .body(requestBody)
                 .when()
-                .put("/1/cards/6460c96d8b75e7dbe8466805?key=1e166e6bb1ca9d215203a0d66d771f8e&token=ATTAa9181d91daad8f88c8d5ec34e261775611b7a7ae8f26f72bc6d49335743613d7EEC813F8")
+                .post("/1/lists?name=NewListTest&idBoard=647c7ec6c6650c0bf45435d8&key=1e166e6bb1ca9d215203a0d66d771f8e&token=ATTAa9181d91daad8f88c8d5ec34e261775611b7a7ae8f26f72bc6d49335743613d7EEC813F8")
                 .then()
                 .extract().response();
 
         Assertions.assertEquals(200, response.statusCode());
-        Assertions.assertEquals("2022-01-26T00:00:00.000Z", response.jsonPath().getString("due"));
+        Assertions.assertEquals("NewListTest",response.jsonPath().getString("name"));
+        System.out.println(response.getBody().asString());
     }
 }
+

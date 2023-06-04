@@ -5,42 +5,48 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Stream {
-    public static void main(String[] args) {
-        Integer n = 10;
+    public static List<Person> main(String[] args) {
+        Integer count = 10;
         if(args.length>0){
             try {
-                n = Integer.parseInt(args[0]);
+                count = Integer.parseInt(args[0]);
             }catch (Exception e){
-                System.out.println(args[0]);
+               System.out.println(args[0]);
             }
 
         }
 
-        List<Person> colorPalettes=generateColorPalettes(n);
-        System.out.println(colorPalettes);
+        List<Person> personList=generatePersons(count);
+        System.out.println(personList);
 
-        Collections.sort(colorPalettes);
-        System.out.println(colorPalettes);
+        Collections.sort(personList);
+        System.out.println(personList);
 
-        System.out.println(colorPalettes.stream().sorted(new Comparator<Person>() {
+        System.out.println(personList.stream().sorted(new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
-                return o1.getRgb().toString().compareTo(o2.getRgb().toString());
+                return o1.getName().compareTo(o2.getName());
             }
         }).collect(Collectors.toList()));
 
+        return personList;
     }
 
-    private static List<Person> generateColorPalettes(int i) {
+    private static List<Person> generatePersons(int counts) {
         Random random= new Random();
-        List<Person> colorPalettesList = new ArrayList<>();
-        IntStream.range(1,i).forEach(n->{
-            Person colorPalette = new Person();
-            colorPalette.setPrimary(random.nextBoolean());
-            colorPalette.setRgb(Collections.singletonList(random.nextInt(100)));
-            colorPalette.setColors(Collections.singletonList("color"+random.nextInt(100)));
-            colorPalettesList.add(colorPalette);
+        List<Person> personArrayList = new ArrayList<>();
+        IntStream.range(1,counts).forEach(n->{
+            Person person = new Person();
+            person.setStudent(random.nextBoolean());
+            person.setName(UUID.randomUUID().toString());
+            HashMap<String, String> map = new HashMap<String, String>();
+            map.put("street",UUID.randomUUID().toString());
+            map.put("city",UUID.randomUUID().toString());
+            map.put("state",UUID.randomUUID().toString());
+            person.setAddress(map);
+            personArrayList.add(person);
         });
-        return colorPalettesList;
+        return personArrayList;
     }
+
 }

@@ -1,13 +1,9 @@
-<ColorPalette>
-    <colors>
-        <colors>red</colors>
-        <colors>green</colors>
-        <colors>blue</colors>
-    </colors>
-    <primary>true</primary>
-    <rgb>
-        <rgb>255</rgb>
-        <rgb>0</rgb>
-        <rgb>0</rgb>
-    </rgb>
-</ColorPalette>
+<Person>
+    <name>Mark</name>
+    <address>
+        <city>Los Angeles</city>
+        <street>789 Oak St</street>
+        <state>CA</state>
+    </address>
+    <student>true</student>
+</Person>

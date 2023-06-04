@@ -1,0 +1,30 @@
+
+// Step 1: Calculate the total cost of manual testing.
+
+manual testing effort = 100 hours
+
+hourly rate of the testers = $30.
+
+Total cost of manual testing = 100 hours * $30/hour = $3,000.
+
+// Step 2: Calculate the total cost of automation testing.
+
+automation testing effort = 50 hours
+
+hourly rate of the testers is $30
+
+setting up the automation testing environment = $1,500.
+
+Total cost of automation testing = (50 hours * $30/hour) + $1,500 = $3,000 + $1,500 = $4,500.
+
+Step 3: Determine the net cost of automation testing.
+
+Net cost of automation testing = $4,500 - $3,000 = $1,500.
+
+Step 4: Calculate the ROI for automation testing.
+
+ROI for automation testing = ($1,500 / $3,000) * 100 = 50%.
+
+ROI для автоматизованого тестування становить 50%. Це означає, що очікується, що інвестиції, зроблені в автоматизоване тестування,
+окупляться на 50% у вигляді економії коштів порівняно з ручним тестуванням.
+

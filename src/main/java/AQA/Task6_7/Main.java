@@ -13,27 +13,26 @@ public class Main {
 //        Setup Hibernate for those Entities and local DB
 //        Check basic CRUD (create, read, update, delete the BD records using Hibernate)
 //        Generate few rows into all tabled
-
-
 //        task7:
 //        Implement OneToOne, OneToMany, ManyToMany relations in your models from previous task. (add some additional tables if need)
 //        Test it by CRUD.
 
 
-        UserService userService = new UserService();
-        User user = new User("Masha",26);
-        userService.saveUser(user);
-        Auto ferrari = new Auto("Ferrari");
-        ColorPalette studentGfgDetail
-                = new ColorPalette();
-         studentGfgDetail.ColorPalette("White",true,23);
-         ferrari.setColorPalette(studentGfgDetail);
-        ferrari.setUser(user);
-        user.addAuto(ferrari);
-        Auto ford = new Auto("Ford");
-        ford.setUser(user);
-        user.addAuto(ford);
-        userService.updateUser(user);
+        PersonService personService = new PersonService();
+        Person person = new Person("Yevgeniy",20);
+
+       Friends friends = new Friends("Ivan");
+        Address address = new Address("789 Oak St","Los Angeles","CA");
+        friends.setAddress(address);
+       friends.setPerson(person);
+        person.addPerson(friends);
+        personService.savePerson(person);
+        Friends friends1 = new Friends("Alex");
+        friends1.setPerson(person);
+        person.addPerson(friends1);
+      personService.updatePerson(person);
+      personService.findAllPersons();
+       personService.deletePerson(person);
         System.exit(0);
     }
 }

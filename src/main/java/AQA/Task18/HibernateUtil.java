@@ -17,9 +17,9 @@ public class HibernateUtil {
             // Create properties for Hibernate configuration
             Properties hibernateProps = new Properties();
             hibernateProps.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-            hibernateProps.put(Environment.URL, "jdbc:mysql://localhost:3316/bugtracker");
+            hibernateProps.put(Environment.URL, "jdbc:mysql://localhost/bugtracker");
             hibernateProps.put(Environment.USER, "root");
-            //hibernateProps.put(Environment.PASS, "Qqwe12345678");
+            hibernateProps.put(Environment.PASS, "Qqwe12345678");
 
             hibernateProps.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
 

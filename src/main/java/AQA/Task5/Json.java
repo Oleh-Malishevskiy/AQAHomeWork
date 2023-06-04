@@ -5,11 +5,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Json {
     public static void main(String[] args) throws IOException {
-        // Я тільки трохи наплутав і зробив 11 варіант замість мого 10 в 5.6.7 я вже міняти не буду на діюсь ви зарахуєте
-       // General task for all:
 //        Serialization-Deserialization:
 //        a) Make some complex models using your variant.
 //                b) Make it serializable.
@@ -25,46 +25,45 @@ public class Json {
 //        c) Collect it to List with *main field(s).
 //
 //        3. Write a maven command for executing one of your tasks with arguments (number of elements).
-
-//        V11
 //        {
-//            "colors": ["red", "green", "blue"],
-//            "isPrimary": true,
-//                "rgb": {
-//            "r": 255,
-//                    "g": 0,
-//                    "b": 0
+//            "isStudent": true,
+//                "name": "Mark",
+//                "address": {
+//            "street": "789 Oak St",
+//                    "city": "Los Angeles",
+//                    "state": "CA"
 //        }
 //        }
-//<colorPalette>
-//  <colors>
-//    <color>red</color>
-//    <color>green</color>
-//    <color>blue</color>
-//  </colors>
-//  <isPrimary>true</isPrimary>
-//  <rgb>
-//    <r>255</r>
-//    <g>0</g>
-//    <b>0</b>
-//  </rgb>
-//</colorPalette>
+//<person>
+//  <isStudent>true</isStudent>
+//  <name>Mark</name>
+//  <address>
+//    <street>789 Oak St</street>
+//    <city>Los Angeles</city>
+//    <state>CA</state>
+//  </address>
+//</person>
 
 
-                Person colorPalette = new Person();
-        colorPalette.setColors(Arrays.asList("red", "green", "blue"));
-        colorPalette.setPrimary(Boolean.TRUE);
-        colorPalette.setRgb(Arrays.asList(255,0,0));
-        System.out.println(colorPalette);
+
+                Person person = new Person();
+        person.setStudent(true);
+        person.setName("Mark");
+        HashMap<String, String> map = new HashMap<String, String>();
+        map.put("street","789 Oak St");
+        map.put("city","Los Angeles");
+        map.put("state","CA");
+        person.setAddress(map);
+        System.out.println(person);
 
         ObjectMapper objectMapper = new ObjectMapper();
-        String stringJson = objectMapper.writeValueAsString(colorPalette);
+        String stringJson = objectMapper.writeValueAsString(person);
         System.out.println(stringJson);
 
-        Person inputJson = objectMapper.readValue(new File("input.json"), Person.class);
+       Person inputJson = objectMapper.readValue(new File("input.json"), Person.class);
         System.out.println(inputJson);
 
-        inputJson.getColors().add("Black");
+        inputJson.getAddress().put("country","USA");
         objectMapper.writeValue(new File("output.json"),inputJson);
         System.out.println(inputJson);
     }

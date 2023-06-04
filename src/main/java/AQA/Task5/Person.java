@@ -1,55 +1,53 @@
 package AQA.Task5;
 
 import java.io.Serializable;
-import java.util.List;
+import java.util.HashMap;
 
 public class Person implements Serializable,Comparable<Person> {
-    private List<String> friends;
-    private Boolean isWorking;
-    private List<Integer> rgb;
+    private String name;
+    private Boolean isStudent;
+    private HashMap<String, String> address;
 
-    public Person() {
+    public String getName() {
+        return name;
     }
 
-    public List<String> getColors() {
-        return friends;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setColors(List<String> colors) {
-        this.friends = colors;
+    public Boolean getStudent() {
+        return isStudent;
     }
 
-    public Boolean getPrimary() {
-        return isWorking;
+    public void setStudent(Boolean student) {
+        isStudent = student;
     }
 
-    public void setPrimary(Boolean primary) {
-        isWorking = primary;
+    public HashMap<String, String> getAddress() {
+        return address;
     }
 
-    public List<Integer> getRgb() {
-        return rgb;
-    }
-
-    public void setRgb(List<Integer> rgb) {
-        this.rgb = rgb;
+    public void setAddress(HashMap<String, String> address) {
+        this.address = address;
     }
 
     @Override
     public String toString() {
-        return "ColorPalette{" +
-                "friends=" + friends +
-                ", isWorking=" + isWorking +
-                ", rgb=" + rgb +
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", isStudent=" + isStudent +
+                ", address=" + address +
                 '}';
     }
 
-
+    public Person() {
+    }
 
     @Override
     public int compareTo(Person o) {
         Person o1 =(Person)this;
         Person o2 =(Person)o;
-        return o1.getRgb().toString().compareTo(o2.getRgb().toString());
+        return o1.getName().compareTo(o2.getName());
     }
 }

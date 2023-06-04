@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table (name = "users")
-public class User {
+@Table (name = "person")
+public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,25 +16,25 @@ public class User {
 
     private int age;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Auto> autos;
+    @OneToMany(mappedBy = "person", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Friends> friends;
 
-    public User() {
+    public Person() {
     }
 
-    public User(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        autos = new ArrayList<>();
+        friends = new ArrayList<>();
     }
 
-    public void addAuto(Auto auto) {
-        auto.setUser(this);
-        autos.add(auto);
+    public void addPerson(Friends friends) {
+        friends.setPerson(this);
+        this.friends.add(friends);
     }
 
-    public void removeAuto(Auto auto) {
-        autos.remove(auto);
+    public void removePerson(Friends friends) {
+        this.friends.remove(friends);
     }
 
     public int getId() {
@@ -57,12 +57,12 @@ public class User {
         this.age = age;
     }
 
-    public List<Auto> getAutos() {
-        return autos;
+    public List<Friends> getFriends() {
+        return friends;
     }
 
-    public void setAutos(List<Auto> autos) {
-        this.autos = autos;
+    public void setFriends(List<Friends> friends) {
+        this.friends = friends;
     }
 
     @Override

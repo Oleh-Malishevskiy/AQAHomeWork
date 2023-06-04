@@ -6,9 +6,9 @@
         <property name="hibernate.hbm2ddl.auto">create</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/new_schema1</property>
-        <property name="hibernate.connection.username">Oleh</property>
-        <property name="hibernate.connection.password">Qqwe12345678</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3316/new</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
         <property name="show_sql">true</property>
     </session-factory>
 </hibernate-configuration>

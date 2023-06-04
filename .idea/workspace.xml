@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7328f90-4927-4577-bf99-93137ddbe0b3" name="Changes" comment="Task16">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task16/CreateBoardApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/input.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task13/SuiteListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task13/SuiteListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task18/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task18/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task5/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task5/XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/Friends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/ColorPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/LogTask13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AQA/Task6_7/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task16/AddAndPutDueDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task16/RenameListApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task16/ApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task16/DeleteDueDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task16/CloseListApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAndPutDueDate.putRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateListApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
@@ -105,29 +128,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Task16" />
-      <option name="MAIN_CLASS_NAME" value="Task16.AddAndPutDueDate" />
-      <option name="METHOD_NAME" value="putRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AQAHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task16" />
-      <option name="MAIN_CLASS_NAME" value="Task16.ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="Task16.CreateListApi" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDueDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateListApi.CreateBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQAHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task16" />
+      <option name="MAIN_CLASS_NAME" value="Task16.CreateListApi" />
+      <option name="METHOD_NAME" value="CreateBoardTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDueDate.putRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQAHomeWork" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +160,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="Task16" />
       <option name="MAIN_CLASS_NAME" value="Task16.DeleteDueDate" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="putRequest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,10 +169,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HibernateMain" />
-        <item itemvalue="JUnit.DeleteDueDate" />
+        <item itemvalue="JUnit.DeleteDueDate.putRequest" />
+        <item itemvalue="JUnit.CreateListApi" />
         <item itemvalue="JUnit.AddAndPutDueDate" />
-        <item itemvalue="JUnit.AddAndPutDueDate.putRequest" />
-        <item itemvalue="JUnit.ApiTest" />
+        <item itemvalue="JUnit.CreateListApi.CreateBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -307,11 +331,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AQA/Task5/Stream.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/AQA/Task6/Main.java</url>
           <line>1</line>
           <option name="timeStamp" value="5" />
@@ -326,6 +345,10 @@
           <line>8</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

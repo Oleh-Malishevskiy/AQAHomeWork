@@ -1,8 +1,7 @@
 package AQA.Task13;
 
 
-import AQA.Task6_7.LogTask13;
-import AQA.Task6_7.UserService;
+
 import org.testng.*;
 import org.apache.log4j.Logger;
 public class SuiteListener implements ISuiteListener, IExecutionListener ,ITestListener{
@@ -15,9 +14,6 @@ public class SuiteListener implements ISuiteListener, IExecutionListener ,ITestL
         LOGGER.info(result);
         a = String.valueOf(result);
         System.out.println(" ---------------------  " + a);
-        UserService userService = new UserService();
-        LogTask13 logTask13 = new LogTask13(a);
-        userService.saveLogG(logTask13);
     }
 
     @Override
